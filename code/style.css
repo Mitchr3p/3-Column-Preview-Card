@@ -103,3 +103,15 @@ p {
   background-color: hsl(0, 0%, 95%);
   color: hsl(179, 100%, 13%);
 }
+
+button:active {
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border: solid hsl(0, 0%, 95%);
+  border-width: 2px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
