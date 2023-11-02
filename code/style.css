@@ -20,7 +20,7 @@ body {
 .sm2 {
   background-color: hsl(184, 100%, 22%);
   height: 480px;
-  width: 240px;
+  width: 240px; 
 }
 
 .sm3 {
@@ -28,3 +28,13 @@ body {
   height: 480px;
   width: 240px;
 }
+
+img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+  p {
+    margin-top: 20px;
+     margin-left: 20px;
+  }
