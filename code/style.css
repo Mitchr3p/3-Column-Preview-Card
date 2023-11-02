@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url(/code/custom-font/Lexend_Deca/Lexend-Deca/BIg-sholders/LexendDeca-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Big Shoulders';
+  src: url(/code/custom-font/Big-shoulders/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .sm1 {
+    background-color: hsl(31, 77%, 52%);
+    height: 480px;
+    width: 240px;
+    flex: initial;
+    
+  }
+  
+  .sm2 {
+    background-color: hsl(184, 100%, 22%);
+    height: 480px;
+    width: 240px; 
+    flex: initial;
+  }
+  
+  .sm3 {
+    background-color: hsl(179, 100%, 13%);
+    height: 480px;
+    width: 240px;
+    flex: initial;
+  }
+}
+
+
+
+img {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+p {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: 'Lexend Deca';
+}
+
+.p3 {
+  margin-bottom: 34px;
+}
+
+.title {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: 'Big Shoulders';
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.but1 {
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+}
+
+.but2 {
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+}
+
+.but3 {
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+}
+
+button:active {
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border: solid hsl(0, 0%, 95%);
+  border-width: 2px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
