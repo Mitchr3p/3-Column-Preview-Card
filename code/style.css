@@ -34,7 +34,38 @@ img {
   margin-left: 20px;
 }
 
-  p {
-    margin-top: 20px;
-     margin-left: 20px;
-  }
+p {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.but1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+}
+
+.but2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+}
+
+.but3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+}
