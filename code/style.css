@@ -12,19 +12,19 @@ body {
 }
 
 .sm1 {
-  background-color: black;
-  height: 100px;
-  width: 50px;
+  background-color: hsl(31, 77%, 52%);
+  height: 480px;
+  width: 240px;
 }
 
 .sm2 {
-  background-color: black;
-  height: 100px;
-  width: 50px;
+  background-color: hsl(184, 100%, 22%);
+  height: 480px;
+  width: 240px;
 }
 
 .sm3 {
-  background-color: black;
-  height: 100px;
-  width: 50px;
+  background-color: hsl(179, 100%, 13%);
+  height: 480px;
+  width: 240px;
 }
