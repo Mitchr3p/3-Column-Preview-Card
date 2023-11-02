@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sm1 {
+  background-color: black;
+  height: 100px;
+  width: 50px;
+}
+
+.sm2 {
+  background-color: black;
+  height: 100px;
+  width: 50px;
+}
+
+.sm3 {
+  background-color: black;
+  height: 100px;
+  width: 50px;
+}
